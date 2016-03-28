@@ -323,3 +323,14 @@ body {
   margin: 0 auto;
   display: block;
 }
+
+.footer-landing {
+  background-color: grey;
+}
+
+.footer-landing li {
+    display: inline-block;
+    color: white;
+}
+
+}

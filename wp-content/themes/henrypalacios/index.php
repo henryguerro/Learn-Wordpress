@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title><?php bloginfo('description'); ?></title>
-    <link rel="stylesheet" href="<?php bloginfo(stylesheet_url) ?>">
-</head>
+<?php get_header(); ?>
 <body>
   <header class="header">
     <h1>  <?php bloginfo('name'); ?></h1>
@@ -36,8 +30,6 @@
           <h3>No se encontraron entradas</h3>
       <!-- no posts found -->
       <?php endif; ?>
-
   </section>
 
-</body>
-</html>
+<?php get_footer('landing'); ?>
